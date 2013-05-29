@@ -1,0 +1,15 @@
+{
+  "author": "Benn Mapes <benn.mapes@gmail.com>",
+  "name": "plugin-breakout-release-test-harness",
+  "description": "Test install of Cordova plugins",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianleroux/plugin-breakout-release-test-harness.git"
+  },
+  "main": "test-cordova-plugins.js",
+  "dependencies": {
+    "shelljs": "0.1.x"
+  },
+  "contributors":[]
+}
