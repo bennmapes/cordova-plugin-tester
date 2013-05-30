@@ -1,0 +1,9 @@
+Usage: $0 create [options] <path>
+
+Description:
+
+  Creates a new test application at the provided path.
+
+Examples:
+
+  $ $0 create path/to/my-app

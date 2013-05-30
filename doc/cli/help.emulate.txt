@@ -1,0 +1,11 @@
+Usage: $0 emulate <platform>
+
+Description:
+
+  Emualtes your plugin projects for a specific platform.
+
+
+Examples:
+
+  $ $0 emualte android
+  $ $0 emulate ios
