@@ -1,9 +1,34 @@
-We're breaking out the API surface of Cordova into discreet plugins. This script helps test the support tooling for that.
+# Cordova Plugin Tester
 
-Run the test harness script, everything should pass and you can go run each project to test.
+> Cordova Plugin Tester command-line interface and Node.js library.
 
-Run the clean script to clean out your working directory. 
+## Command-line
 
-Each plugin comes with its own docs + tests.
+### Install (inside cordova-plugin-tester project)
 
-This script creates a ios and android project for every plugin and installs the plugin into the project. Once completed, a master project for ios and android is built that all of the plugins get installed into and mobile spec is copied into the www directories.
+    $ npm install
+
+### Usage
+
+    Usage: tester [options] [commands]
+
+    Description:
+
+      Cordova Plugin Tester command-line tool.
+
+    Commands:
+
+      create [path]        create a plugin testing project
+      emulate [path]       emulate tester project
+      help [command]       output usage information
+      version              output version number
+
+    Options:
+
+      -v, --version        output version number
+      -h, --help           output usage information
+
+    Examples:
+
+      $ tester create
+      $ tester emulate

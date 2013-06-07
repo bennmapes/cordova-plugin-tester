@@ -9,7 +9,8 @@
 
     $ npm install
 
-## Run the Tests (not yet! but you can write them...)
+## Tests for Tests??? Naaaa... 
+(but you can write them if you really want...)
 
     $ npm test
 
